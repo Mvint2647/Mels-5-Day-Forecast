@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous"> <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+        integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <script src="./Mels-5-Day-Forecast/assets/script.js"></script>
-   
+
+
     <title>5 Day Forecast </title>
 </head>
+<!----------------------------Card1----------------------------------->
 
 <body>
- <div class="card">
-    <div class="search">
-        <div class="weather">
-            <div class="city">Weather in Missouri<div>
-            <div class="description">Sunny</div>
-            <div class="uv-index">UV-Index: Green</div>
-            <div class="wind">Wind speed: 3mph.</div>
-            <div class="temperature">77°F</div>
-            <div class="humidity">Humidity:30%</div>
-        </section>
-    
+
+    <section class="card1">
+        <div class="search">
+            <div class="forecast">
+
+                <div class="city">Weather in Missouri<div>
+                        <div class="uv-index">UV-Index: Green</div>
+                        <div class="temperature">77°F</div>
+                        <div class="humidity">Humidity:30%</div>
+                        <div class="wind">Wind speed: 3mph.</div>
+                        <div class="des">Sunny</div>
+
+    </section>
+    <!----------------------------Sidebar----------------------------------->
     <main>
         <div class="sidebar">
-        <h2>Search for a City</h2>
-        <input type="text" class="bar1" placeholder="Missouri"></input>
-        <div class="div1">
-            <button type="search-button" class="btn" btn btn-success btn-lg btn-block search-button"> Search </button>
-        </div>
-        <select id="text" class="div1">
-            <option>           </option>
-            <option>Washington State</option>
-            <option>California</option>
-            <option>Georgia</option>
-            <option>New York</option>
-            <option>Missouri</option>
-            <option>South Carolina</option>
-            <option>North Carolina</option>
-        </select>
-</main>
-
+            <h2>Search for a City</h2>
+            <input type="text" class="bar1" placeholder="Missouri"></input>
+            <div class="div1">
+                <button type="search-button" class="btn" btn btn-success btn-lg btn-block search-button"> Search
+                </button>
+            </div>
+            <select id="text" class="div1">
+                <option> Select State </option>
+                <option>Washington State</option>
+                <option>California</option>
+                <option>Georgia</option>
+                <option>New York</option>
+                <option>Missouri</option>
+                <option>South Carolina</option>
+                <option>North Carolina</option>
+            </select>
+    </main>
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
