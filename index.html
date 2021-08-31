@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".Mels-5-Day-Forecast/assets/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+        integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <script src="./Mels-5-Day-Forecast/assets/script.js"></script>
     <title>5 Day Forecast </title>
 </head>
 
 <body>
-    <div class="card1">
-        <div class="search">
-            <input type="text" class="search-bar">
-            <button><svg stroke="currentColor" fill="currentColor" strokeWidth={0} viewBox="0 0 24 24" height=".9em" width=".9em" {...props}><path d="M15.25 0a8.25 8.25 0 0 0-6.18 13.72L1 22.88l1.12 1 8.05-9.12A8.251 8.251 0 1 0 15.25.01V0zm0 15a6.75 6.75 0 1 1 0-13.5 6.75 6.75 0 0 1 0 13.5z" /></svg>
-            </button>
-        </div>
-         <div class="weather">
-            <div class="city">Weather in Missouri<div>
-             <img src="" alt="" class="">
-             <div class="description">Sunny</div>
-             <div class="uv-index">UV-Index: Green
-                 <div class="wind">Wind speed: 3mph.
-                     <div class="temperature">77°F
-                         <div class="humidity">Humidity:30%</div>
-                     </div>
-                 </div>
-             </div>
-         </div>
-        </div>
-    <nav> 
+    <header>
+        <h1> Brought to you by Mels Forecast!</h1>
+    </header>
 
-    </nav>
     <main>
+        <div class="main">
+        <h2>Search for a City</h2>
+        <input type="text" class="bar1" placeholder="Missouri"></input>
+        <div class="div1">
+            <button type="search-button" class="btn" btn btn-success btn-lg btn-block search-button"> Search </button>
+        </div>
+        <list id="text" class="div1">
+            <option>Washington State</option>
+            <option>California</option>
+            <option>Georgia</option>
+            <option>New York</option>
+            <option>Missouri</option>
+            <option>South Carolina</option>
+            <option>North Carolina</option>
+        </list>
+</main>
+<form>
+   <div class="search">
+        <input type="text" class="search-bar">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"></path></svg>
+    </div>
+    <div class="weather">
+        <div class="city">Weather in Missouri</div>
+        <img src="" alt="" class="">
+        <div class="description">Sunny</div>
+        <div class="uv-index">UV-Index: Green</div>
+        <div class="wind">Wind speed: 3mph.</div>
+        <div class="temperature">77°F</div>
+        <div class="humidity">Humidity:30%</div>
+        </div>
+    </form>
 
-    </main>
 </body>
+
 </html>
