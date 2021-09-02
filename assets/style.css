@@ -1,2 +1,26 @@
 body{
     font-family: 'Klee One', cursive;
+background-color: var(--blacknight);
+background-image: url("https://source.unsplash.com/1600x900/?nature,sky");
+}
+
+h1{
+    font-size:70px;
+    background-color: white;
+}
+
+h5{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0);
+}
+.row{
+    background-color: rgb(255, 255, 255);
+}
+id=forecast{
+background
+}
