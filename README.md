@@ -19,6 +19,8 @@ Trial and error
 
 ## Screenshots
 ![Mels-5-Day-Forecast](assets/images/ss40.png)
+![Mels-5-Day-Forecast](assets/images/ss46.png)
+![Mels-5-Day-Forecast](assets/images/ss45.png)
 
 =======
 
