@@ -1,23 +1,21 @@
 body{
-    font-family: 'Klee One', cursive;
+font-family: 'Klee One', cursive;
 background-color: var(--blacknight);
-background-image: url("https://source.unsplash.com/1600x900/?nature,sky");
+background-image: url("https://source.unsplash.com/1600x900/?nature,clouds");
 }
 
 h1{
     font-size:70px;
-    background-color: white;
 }
 
 h5{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.219);
     padding: 10px 10px 10px 10px;
     text-align: center;
+    color:rgb(0, 0, 0);
 }
 
 .container-fluid{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.918);
 }
-.row{
-    background-color: rgb(255, 255, 255);
-}
+
