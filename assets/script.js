@@ -38,19 +38,19 @@ let tempF = (response.main.temp - 273.15) * 1.80 + 32;
     console.log(response.main.humidity)
     console.log(response.wind.speed)
 
-    getCurrentConditions(response);
+    getForecast(response);
     getCurrentForecast(response);
-    makeList();
+    getList();
 
     })
   });
 
   
   
-  function makeList() {
+  function getList() {
     let listItem = $("<li>").addClass("list-group-item").text(city);
     $(".list").append(listItem);
-  }function getCurrentConditions (response) {
+  }function getForecast (response) {
     let tempF = (response.main.temp - 273.15) * 1.80 + 32;
     tempF = Math.floor(tempF);
 
