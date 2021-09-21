@@ -15,7 +15,13 @@ h5{
     color:rgb(0, 0, 0);
 }
 
-.container-fluid{
-    background-color: rgba(255, 255, 255, 0.918);
+.card {
+    background: rgba(255, 255, 255, 0.253);
 }
 
+.mt-4 col-md-12{
+    background: rgba(255, 255, 255, 0.295);
+
+}
+
+   
